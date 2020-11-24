@@ -1,0 +1,29 @@
+.wrap {
+    min-height: 7vh;
+    background-color: MediumBlue;
+    width: 100%;
+    color: honeydew;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+
+}
+
+.login {
+    align-self: stretch;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 5rem;
+    text-decoration: none;
+    color: honeydew;
+}
+
+.login:hover {
+    cursor: pointer;
+}
